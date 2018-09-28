@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    padding: 4rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    margin: 0 2rem;
+    padding-left: 29px;
+    background-image: url(../img/picturehomework.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 23rem;
+}
+
+.Name {
+    font-size: 5rem;
+    color: hsl(213, 48%, 29%);
+    text-shadow: 3px 3px hsl(0, 100%, 100%);
+    padding-top: 2.8rem;
+    padding-bottom: 2rem;
+}
+
+header > h2 {
+    margin-left: 3px;
+    font-size: 4.2rem;
+    color: hsl(203, 42%, 75%);
+    text-shadow: 1.5px 2px hsl(203, 40%, 20%);
+}
+
+h3.Bob {
+    color: hsl(207, 64%, 56%);
+    font-size: 3rem;
+}
+
+
+nav {
+    margin: 0 2rem;
+    padding-left: 1rem 2rem;
+    color: hsl(0, 100%, 100%);
+    font-size: 2rem;
+    background-color: hsl(207, 70%, 47%);
+    padding: 0.5rem;
+    border-bottom: 1.5rem solid hsl(213, 48%, 29%);
+}
+
+a:link {
+    color: hsl(0, 100%, 100%);
+    text-decoration: none;
+    padding: 2.7rem;
+    padding-left: 1.5rem;
+
+}
+
+main {
+    margin: 2rem;
+    padding: 0.9rem 2rem;
+    font-family: Arial Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+
+
+main > p {
+    margin: 2rem 0rem;
+    line-height: 26px;
+    padding-left: 0 2rem;
+}
+
+
+h4 {
+    color: hsl(207, 64%, 56%);
+    font-size: 1.5rem;
+    line-height: 90px;
+
+}
+
+
+.list {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-left: 16px;
+}
+
+
+.container {
+    width: 56rem;
+
+}
