@@ -1,2 +1,2 @@
-# mad9013-colourwebpage
+# colourwebpage
 HTML, CSS
